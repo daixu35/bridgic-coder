@@ -1,0 +1,12 @@
+[project]
+name = "bridgic-coder"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "bridgic-amphibious==0.1.2.dev13",
+]
+
+# Local working copy so the demo sees the in-progress logging changes
+# without waiting for a published version.
+[tool.uv.sources]
+bridgic-amphibious = { path = "/Users/daixu/Desktop/project/bridgic/packages/bridgic-amphibious", editable = true }
